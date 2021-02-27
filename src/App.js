@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 function App() {
   const [count, setCount] = useState(0);
 
@@ -13,9 +12,7 @@ function App() {
   };
   return (
     <React.Fragment>
-      <label htmlFor="heading">
-        <h4>My Counter</h4>
-      </label>
+      <h4>My Counter</h4>
       <p value={count}>{count}</p>
       <button aria-label="increment" id="increment" onClick={onIncrement}>
         Increment
